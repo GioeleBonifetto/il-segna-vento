@@ -16,7 +16,7 @@ theme = "meghna"
     weight = 3
 
     [[menu.nav]]
-    name = "Portfolio"
+    name = "Prodotti"
     URL = "portfolio"
     weight = 4
 
