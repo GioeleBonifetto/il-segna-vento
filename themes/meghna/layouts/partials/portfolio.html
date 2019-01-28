@@ -15,7 +15,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="portfolio-filter">
-                    <button type="button" data-filter="all">All</button>
+                    <button type="button" data-filter="all">In Evidenza</button>
                     {{ range .Site.Data.portfolio.filterList }}
                     <button type="button" data-filter=".{{ .filterType }}">{{ .filterTitle }}</button>
                     {{ end }}

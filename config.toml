@@ -5,40 +5,30 @@ theme = "meghna"
 
 # Menu
 [menu]
+
     [[menu.nav]]
-    name = "About Us"
+    name = "Chi siamo"
     URL = "about"
     weight = 2
 
     [[menu.nav]]
-    name = "Service"
-    URL = "services"
+    name = "Prodotti"
+    URL = "portfolio"
     weight = 3
 
     [[menu.nav]]
-    name = "Prodotti"
-    URL = "portfolio"
+    name = "Partners"
     weight = 4
-
-    [[menu.nav]]
-    name = "Team"
-    URL = "our-team"
-    weight = 5
-
-    [[menu.nav]]
-    name = "Pricing"
-    URL = "pricing"
-    weight = 6
 
     [[menu.nav]]
     name = "Blog"
     URL = "blog"
-    weight = 7
+    weight = 5
 
     [[menu.nav]]
-    name = "Contact"
+    name = "Contattaci"
     URL = "contact-us"
-    weight = 8
+    weight = 6
 
 # Site params
 [params]
@@ -59,7 +49,7 @@ custom_css = ["css/custom.css"]
     icon = "tf-ion-play"
     heading = "Experience the new reality"
     content= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
-    btn = true
+    btn = false
     btnText="Explore Us"
     btnURL="#services"
 
