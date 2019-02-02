@@ -18,6 +18,7 @@ theme = "meghna"
 
     [[menu.nav]]
     name = "Partners"
+    URL = "testimonial"
     weight = 4
 
     [[menu.nav]]
@@ -45,10 +46,9 @@ custom_css = ["css/custom.css"]
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/slider/hero-area.jpg"
-    icon = "tf-ion-play"
-    heading = "Experience the new reality"
-    content= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
+    bgImage = "images/slider/biglietto-visita.jpg"
+    heading = ""
+    content= ""
     btn = false
     btnText="Explore Us"
     btnURL="#services"

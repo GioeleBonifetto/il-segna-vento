@@ -71,16 +71,19 @@ jQuery(function ($) {
 	/* =========================================================================  */
 
 	//Init the carousel
-	$("#testimonials").slick({
-		infinite: true,
-		arrows: false,
-		autoplay: true,
-		autoplaySpeed: 4000
+
+	// $("#testimonials").slick({
+	// 	infinite: true,
+	// 	arrows: false,
+	// 	autoplay: true,
+	// 	autoplaySpeed: 4000
+	// });
+
+	$("#testimonials-for").slick({
+		dots: false,
+		infinite: false,
+		speed: 200
 	});
-
-
-
-
 
 	/* ========================================================================= */
 	/*   Contact Form Validating
